@@ -1,0 +1,51 @@
+.id25{
+
+    width: 300px;
+    height: 300px;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(36, 56, 77);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+    
+        
+}
+
+
+.id12{
+    
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+   
+  
+}
+.id13{
+    
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.id14{
+    
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+
+}
+.id15{
+    
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}

@@ -1,0 +1,31 @@
+<!--
+<p>
+    event-binding works!
+</p>
+
+<section>
+    <button mat-stroked-button color="warn" (click)="save()">Aplicar</button>
+    <button mat-stroked-button color="warn" (click)="inc()" > {{buttonName}}</button>
+    <button mat-stroked-button color="warn" (click)="test()" >Enviar</button>
+</section>
+<br>
+
+-->
+ <!-- <h2 class="example-h2 id15"  >Aguarde...</h2> -->
+
+
+<section class="id25">
+   <button class="id12" mat-stroked-button color="primary" [disabled] = "btnEnable" >Corrigir</button>
+   <button class="id13" mat-stroked-button color="warn" [disabled] = "btnEnable"  >Aplicar</button>
+        
+   <button class="id14" mat-stroked-button color="warn" (click)="disable()" [disabled] = "btnEnable" >Enviar</button>
+            
+   
+   
+        <mat-progress-spinner
+          color="accent"
+          [mode]="spinnerMode"
+          value="0">
+   </mat-progress-spinner>
+       
+</section>
